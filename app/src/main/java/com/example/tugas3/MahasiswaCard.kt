@@ -44,5 +44,20 @@ fun MahasiswaCard(
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.SpaceBetween
     ){
+        Image(
+            painter = logo,
+            contentDescription = stringResource(R.string.logo_description),
+            modifier = Modifier.size(
+                dimensionResource(R.dimen.logo_size)
+            )
+        )
 
+        androidx.compose.foundation.layout.Column(
+            modifier = Modifier
+                .weight(1f)
+                .padding(horizontal = 12.dp),
+            verticalArrangement = Arrangement.Center
+        ) {
+
+        }
     }
