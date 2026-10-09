@@ -1,2 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="card_height">95dp</dimen>
+    <dimen name="card_spacing">10dp</dimen>
+    <dimen name="card_padding">12dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="logo_size">60dp</dimen>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="subtitle_size">14sp</dimen>
+    <dimen name="name_size">18sp</dimen>
+    <dimen name="detail_size">13sp</dimen>
+    <dimen name="footer_size">11sp</dimen>
+</resources>
