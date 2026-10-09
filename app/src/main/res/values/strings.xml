@@ -11,4 +11,11 @@
         <item>Masayu Eqfalarisa</item>
         <item>Tara Dwi</item>
     </string-array>
+
+    <string-array name="mahasiswa_telepon">
+    <item>085436874127</item>
+    <item>085436874240</item>
+    <item>085436874227</item>
+    <item>085436874144</item>
+
 </resources>
