@@ -2,6 +2,7 @@
         <string name="app_name">Quest Tugas Layout</string>
         <string name="judul">Teknologi Informasi</string>
         <string name="subjudul">Universitas Muhammadiyah Yogyakarta</string>
+        <string name="nama_font_cursive">Sekar Mayang</string>
         <string name="copyright">Copyright, 2026</string>
         <string name="logo_description">Logo Universitas Muhammadiyah Yogyakarta</string>
 
@@ -13,7 +14,7 @@
     </string-array>
 
     <string-array name="mahasiswa_telepon">
-    <item>085436874127</item>
+        <item>085436874127</item>
     <item>085436874240</item>
     <item>085436874227</item>
     <item>085436874144</item>

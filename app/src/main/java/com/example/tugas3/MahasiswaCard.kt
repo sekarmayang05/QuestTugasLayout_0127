@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.font.FontFamily
 
 @Composable
 fun MahasiswaCard(
@@ -60,20 +61,29 @@ fun MahasiswaCard(
                 .padding(horizontal = 12.dp),
             verticalArrangement = Arrangement.Center
         ) {
+            val namaCursive = stringResource(R.string.nama_font_cursive)
+
             Text(
                 text = mahasiswa.nama,
                 color = colorResource(R.color.text_white),
                 fontSize = dimensionResource(R.dimen.name_size).value.sp,
                 fontWeight = FontWeight.Bold,
+                fontFamily = if (mahasiswa.nama == namaCursive) {
+                    FontFamily.Cursive
+                } else {
+                    FontFamily.Default
+                },
                 maxLines = 1
             )
 
-            Text(
-                text = mahasiswa.telepon,
-                color = colorResource(mahasiswa.warnaTelepon),
-                fontSize = dimensionResource(R.dimen.detail_size).value.sp,
-                maxLines = 1
-            )
+            if (mahasiswa.nama != stringResource(R.string.nama_font_cursive)) {
+                Text(
+                    text = mahasiswa.telepon,
+                    color = colorResource(mahasiswa.warnaTelepon),
+                    fontSize = dimensionResource(R.dimen.detail_size).value.sp,
+                    maxLines = 1
+                )
+            }
 
             Text(
                 text = mahasiswa.alamat,
