@@ -105,4 +105,16 @@ fun MahasiswaScreen() {
                     MahasiswaCard(mahasiswa = mahasiswa)
                 }
             }
+            Spacer(modifier = Modifier.weight(1f))
+
+            Text(
+                text = stringResource(R.string.copyright),
+                color = colorResource(R.color.text_primary),
+                fontSize = 11.sp,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.padding(bottom = 8.dp)
+            )
         }
+    }
+}
+
