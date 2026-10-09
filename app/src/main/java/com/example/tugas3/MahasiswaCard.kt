@@ -58,6 +58,26 @@ fun MahasiswaCard(
                 .padding(horizontal = 12.dp),
             verticalArrangement = Arrangement.Center
         ) {
+            Text(
+                text = mahasiswa.nama,
+                color = colorResource(R.color.text_white),
+                fontSize = dimensionResource(R.dimen.name_size).value.sp,
+                fontWeight = FontWeight.Bold,
+                maxLines = 1
+            )
 
+            Text(
+                text = mahasiswa.telepon,
+                color = colorResource(mahasiswa.warnaTelepon),
+                fontSize = dimensionResource(R.dimen.detail_size).value.sp,
+                maxLines = 1
+            )
+
+            Text(
+                text = mahasiswa.alamat,
+                color = colorResource(mahasiswa.warnaAlamat),
+                fontSize = dimensionResource(R.dimen.detail_size).value.sp,
+                maxLines = 1
+            )
         }
     }
