@@ -54,3 +54,12 @@ fun MahasiswaScreen() {
             warnaTelepon = R.color.text_cyan,
             warnaAlamat = R.color.text_blue_light
         ),
+        Mahasiswa(
+            nama = nama[3],
+            telepon = telepon[3],
+            alamat = alamat[3],
+            warnaCard = R.color.card_green,
+            warnaTelepon = R.color.text_cyan,
+            warnaAlamat = R.color.text_white
+        )
+    )
