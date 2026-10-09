@@ -85,4 +85,13 @@ fun MahasiswaScreen() {
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Center
             )
+            Text(
+                text = stringResource(R.string.subjudul),
+                color = colorResource(R.color.text_primary),
+                fontSize = 14.sp,
+                fontWeight = FontWeight.SemiBold,
+                textAlign = TextAlign.Center
+            )
+
+            Spacer(modifier = Modifier.height(24.dp))
         }
