@@ -43,7 +43,7 @@ fun MahasiswaCard(
             .padding(dimensionResource(R.dimen.card_padding)),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.SpaceBetween
-    ){
+    ) {
         Image(
             painter = logo,
             contentDescription = stringResource(R.string.logo_description),
@@ -80,4 +80,15 @@ fun MahasiswaCard(
                 maxLines = 1
             )
         }
+
+        Image(
+            painter = logo,
+            contentDescription = stringResource(R.string.logo_description),
+            modifier = Modifier.size(
+                dimensionResource(R.dimen.logo_size)
+            )
+        )
+
     }
+}
+
