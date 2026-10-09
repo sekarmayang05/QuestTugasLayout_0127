@@ -22,6 +22,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
 
 @Composable
 fun MahasiswaCard(
@@ -45,11 +46,12 @@ fun MahasiswaCard(
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
         Image(
-            painter = logo,
+            painter = painterResource(R.drawable.logo_umy),
             contentDescription = stringResource(R.string.logo_description),
             modifier = Modifier.size(
                 dimensionResource(R.dimen.logo_size)
-            )
+            ),
+            contentScale = ContentScale.Fit
         )
 
         androidx.compose.foundation.layout.Column(
@@ -86,7 +88,8 @@ fun MahasiswaCard(
             contentDescription = stringResource(R.string.logo_description),
             modifier = Modifier.size(
                 dimensionResource(R.dimen.logo_size)
-            )
+            ),
+            contentScale = ContentScale.Fit
         )
 
     }

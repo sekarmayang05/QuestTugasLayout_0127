@@ -10,4 +10,5 @@
     <dimen name="name_size">18sp</dimen>
     <dimen name="detail_size">13sp</dimen>
     <dimen name="footer_size">11sp</dimen>
+    <dimen name="white_threshold">240</dimen>
 </resources>
