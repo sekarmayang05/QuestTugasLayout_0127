@@ -63,3 +63,16 @@ fun MahasiswaScreen() {
             warnaAlamat = R.color.text_white
         )
     )
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(colorResource(R.color.screen_background))
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(
+                    horizontal = dimensionResource(R.dimen.screen_padding)
+                ),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
