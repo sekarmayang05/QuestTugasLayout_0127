@@ -29,3 +29,20 @@ fun MahasiswaCard(
     modifier: Modifier = Modifier
 ) {
     val logo = painterResource(id = R.drawable.logo_umy)
+
+    Row(
+        modifier = modifier
+            .fillMaxWidth()
+            .height(dimensionResource(R.dimen.card_height))
+            .clip(
+                RoundedCornerShape(
+                    dimensionResource(R.dimen.card_corner_radius)
+                )
+            )
+            .background(colorResource(mahasiswa.warnaCard))
+            .padding(dimensionResource(R.dimen.card_padding)),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.SpaceBetween
+    ){
+
+    }
