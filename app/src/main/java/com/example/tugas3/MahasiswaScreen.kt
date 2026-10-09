@@ -94,4 +94,15 @@ fun MahasiswaScreen() {
             )
 
             Spacer(modifier = Modifier.height(24.dp))
+
+            Column(
+                modifier = Modifier.fillMaxWidth(),
+                verticalArrangement = Arrangement.spacedBy(
+                    dimensionResource(R.dimen.card_spacing)
+                )
+            ) {
+                daftarMahasiswa.forEach { mahasiswa ->
+                    MahasiswaCard(mahasiswa = mahasiswa)
+                }
+            }
         }
