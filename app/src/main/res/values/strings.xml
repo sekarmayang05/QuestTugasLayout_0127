@@ -4,4 +4,11 @@
         <string name="subjudul">Universitas Muhammadiyah Yogyakarta</string>
         <string name="copyright">Copyright, 2026</string>
         <string name="logo_description">Logo Universitas Muhammadiyah Yogyakarta</string>
+
+    <string-array name="mahasiswa_nama">
+        <item>Sekar Mayang</item>
+        <item>Aurelia Citra</item>
+        <item>Masayu Eqfalarisa</item>
+        <item>Tara Dwi</item>
+    </string-array>
 </resources>
