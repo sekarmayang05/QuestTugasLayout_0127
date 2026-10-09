@@ -18,4 +18,10 @@
     <item>085436874227</item>
     <item>085436874144</item>
 
+    <string-array name="mahasiswa_alamat">
+    <item>Kasihan, Bantul</item>
+    <item>Kasihan, Bantul</item>
+    <item>Kasihan, Bantul</item>
+    <item>Kasihan, Bantul</item>
+
 </resources>
