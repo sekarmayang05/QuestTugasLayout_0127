@@ -76,3 +76,13 @@ fun MahasiswaScreen() {
                 ),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Spacer(modifier = Modifier.height(64.dp))
+
+            Text(
+                text = stringResource(R.string.judul),
+                color = colorResource(R.color.text_primary),
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                textAlign = TextAlign.Center
+            )
+        }
